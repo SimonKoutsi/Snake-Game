@@ -118,9 +118,6 @@ window.resizable(False, False)
 score = 0
 direction = "down"
 
-# voleuei na vazo to .pack se deuteri grammi etsi oste sthn metavliti
-# label na ginetai asign o tupos Label. Etsi argotera tha mporo na xrisimopoio
-# to label me tis methodous ths klasis Label (label. )
 label = Label(window,text="Score:{}".format(score), font= ('consolas', 40))
 label.pack()
 
